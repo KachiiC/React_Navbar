@@ -1,0 +1,44 @@
+@media screen and (max-width: 900px) {
+    .nav-menu-list {
+        display: none;
+    }
+
+    .nav-logo {
+        float: left;
+        width: 90%;
+        height: 100%;
+        text-align: left;
+    }
+
+    .nav-logo h1 {
+        padding-left: 50px;
+    }
+    
+    .small-menu-screen,
+    .small-menu-block {
+      display: block;
+    }
+
+    .small-menu-screen {
+        display: block;
+        height: 100%;
+        float:right;
+        width: 10%;
+    }
+
+    .small-menu-screen button {
+        margin: 25px 10px;
+    }
+
+    .small-menu-block {
+        background-color: black;
+        color: white;
+        width: 100%;
+        position: absolute;
+        margin-top: 40px;
+        left: 0;
+        text-align: center;
+    }
+
+
+}

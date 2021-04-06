@@ -1,4 +1,53 @@
-body {
-    margin-top: 47.5px;
-    text-align: center;
+nav {
+  border: 1px solid black;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+.nav-logo {
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+
+.nav-menu-list {
+  width: 70%;
+  margin: 27px 0px;
+}
+
+.nav-heading {
+  text-align: center;
+  margin: auto;
+  font-weight: 700;
+}
+
+.nav-sub-menu {
+  display:none;
+  position: absolute;
+  background-color:black;
+  min-width: 100px;
+  padding: 0px 20px;
+  text-align: left;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.nav-heading:hover .nav-sub-menu {
+  display:block;
+}
+
+.nav-heading:hover {
+  text-decoration: underline;
+}
+
+.nav-heading,
+.nav-sub-menu h6 {
+  cursor: pointer;
+}
+
+/* SMALL MENU  */
+.small-menu-screen,
+.small-menu-block {
+  display: none;
 }
